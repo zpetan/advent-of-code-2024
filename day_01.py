@@ -24,11 +24,11 @@ def main():
     print(number_list_2[:3])
 
     # Part 1
-    sum = 0
+    total_distance = 0
     for n1, n2 in zip(number_list_1, number_list_2):
-       sum += abs(n1-n2)
+       total_distance += abs(n1-n2)
 
-    print(f"Day 01 - Answer Part 1: {sum}")
+    print(f"Day 01 - Answer Part 1: {total_distance}")
 
     # Part 2
     similarity_score = 0
